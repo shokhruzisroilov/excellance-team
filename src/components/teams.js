@@ -20,15 +20,15 @@ const Teams = () => {
 				>
 					Bizning jamoa bilan tanishib chiqishingiz mumkin
 				</p>
-				<div
-					data-aos='fade-up'
-					className='mt-[70px] gap-6 grid lg:grid-cols-4 md:grid-cols-3'
-				>
+				<div className='mt-[70px] gap-6 grid lg:grid-cols-4 md:grid-cols-3'>
 					{teamsData &&
 						teamsData.map(item => {
 							return (
 								<React.Fragment key={item.id}>
-									<div className='flex flex-col items-center justify-center'>
+									<div
+										data-aos='fade-up'
+										className='flex flex-col items-center justify-center'
+									>
 										<span className='w-[255px] h-[255px]'>
 											<Image
 												src={item.image}
