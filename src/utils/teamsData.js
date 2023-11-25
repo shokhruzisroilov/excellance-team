@@ -1,4 +1,5 @@
-import myImage from '../assets/image/work-image.png'
+import myImage from '../assets/image/my-image.JPG'
+import samandarImage from '../assets/image/samandar-image.jpg'
 
 export const teamsData = [
 	{
@@ -9,20 +10,8 @@ export const teamsData = [
 	},
 	{
 		id: 2,
-		image: myImage,
-		name: 'Shohruz Isroilov',
-		label: 'Web developer',
-	},
-	{
-		id: 3,
-		image: myImage,
-		name: 'Shohruz Isroilov',
-		label: 'Web developer',
-	},
-	{
-		id: 4,
-		image: myImage,
-		name: 'Shohruz Isroilov',
-		label: 'Web developer',
+		image: samandarImage,
+		name: 'Samandar Murodaliyev',
+		label: 'Frontend developer',
 	},
 ]

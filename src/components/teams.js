@@ -20,14 +20,14 @@ const Teams = () => {
 				>
 					Bizning jamoa bilan tanishib chiqishingiz mumkin
 				</p>
-				<div className='mt-[70px] gap-6 grid lg:grid-cols-4 md:grid-cols-3'>
+				<div className='mt-[70px] flex gap-10 justify-center flex-wrap'>
 					{teamsData &&
 						teamsData.map(item => {
 							return (
 								<React.Fragment key={item.id}>
 									<div
 										data-aos='fade-up'
-										className='flex flex-col items-center justify-center'
+										className='flex flex-col items-center justify-center text-center'
 									>
 										<span className='w-[255px] h-[255px]'>
 											<Image

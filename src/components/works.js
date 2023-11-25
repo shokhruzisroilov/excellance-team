@@ -41,6 +41,7 @@ const Works = () => {
 											width={350}
 											height={300}
 											priority={true}
+											className='w-[350px] h-[300px] object-cover rounded-[10px] object-top'
 										/>
 										<h4 className='mt-6 text-black text-[18px] font-[600] leading-normal'>
 											<span className='text-accent'>0{item.id}. </span>{' '}
@@ -51,7 +52,7 @@ const Works = () => {
 											{item.description}
 										</p>
 										<Link
-											href='https://t.me/ExcelLanceTeam'
+											href={item.link}
 											className='text-normal font-[500] leading-normal underline text-accent'
 										>
 											Batafsil
