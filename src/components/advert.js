@@ -2,7 +2,7 @@ import Container from "./container"
 
 const Advert = () => {
 	return (
-		<div className='w-full h-[570px] advertBg'>
+		<div  className='w-full h-[570px] advertBg'>
 			<Container>
 				<div className='flex flex-col items-center justify-center'>
 					<h3

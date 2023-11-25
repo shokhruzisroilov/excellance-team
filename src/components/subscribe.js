@@ -4,7 +4,10 @@ import Container from './container'
 const Subscribe = () => {
 	return (
 		<Container>
-			<div className='w-full mt-[165px] h-[1px] bg-[#E0E0E0] md:flex hidden'></div>
+			<div
+				id='contacts'
+				className='w-full mt-[165px] h-[1px] bg-[#E0E0E0] md:flex hidden'
+			></div>
 			<div
 				data-aos='fade-up'
 				className='flex flex-col items-center justify-center'
