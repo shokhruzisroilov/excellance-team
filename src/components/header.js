@@ -61,27 +61,47 @@ const Header = () => {
 				</div>
 				<ul>
 					<li>
-						<Link href='#home' className={styles.linkMobile}>
+						<Link
+							href='#home'
+							className={styles.linkMobile}
+							onClick={() => setMenu(!menu)}
+						>
 							Bosh sahifa
 						</Link>
 					</li>
 					<li>
-						<Link href='#wors' className={styles.linkMobile}>
+						<Link
+							href='#wors'
+							className={styles.linkMobile}
+							onClick={() => setMenu(!menu)}
+						>
 							Bizning loyihalarimiz
 						</Link>
 					</li>
 					<li>
-						<Link href='#services' className={styles.linkMobile}>
+						<Link
+							href='#services'
+							className={styles.linkMobile}
+							onClick={() => setMenu(!menu)}
+						>
 							Xizmatlar
 						</Link>
 					</li>
 					<li>
-						<Link href='#news' className={styles.linkMobile}>
+						<Link
+							href='#news'
+							className={styles.linkMobile}
+							onClick={() => setMenu(!menu)}
+						>
 							Yangiliklar
 						</Link>
 					</li>
 					<li>
-						<Link href='#contacts' className={styles.linkMobile}>
+						<Link
+							href='#contacts'
+							className={styles.linkMobile}
+							onClick={() => setMenu(!menu)}
+						>
 							Kontaktlar
 						</Link>
 					</li>
