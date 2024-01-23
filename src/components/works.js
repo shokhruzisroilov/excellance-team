@@ -17,7 +17,7 @@ const Works = () => {
 						>
 							Bizning loyhalarimizdan <br /> namunalar⬇️
 						</h3>
-						<Link href='https://t.me/ExcelLanceTeam'>
+						<Link href='https://t.me/excellance'>
 							<button
 								data-aos='fade-up'
 								className='rounded-[30px] bg-[#4985ff] shadow-[0px 0px 10px 0px rgba(111, 111, 111, 0.25)] cursor-pointer text-[16px] font-[500] leading-normal pt-[13px] px-[36px] pb-[15px] text-[#fff]'

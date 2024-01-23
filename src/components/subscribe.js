@@ -18,14 +18,14 @@ const Subscribe = () => {
 				<p className='text-parahraph text-center font-normal leading-[158.47%] mt-4'>
 					Foydali maqolalar, aksiyalar, yangiliklar – hammasini hoziroq oling!
 				</p>
-				<div className='sx:flex input mt-[30px] '>
+				<div className='sm:flex input mt-[30px] '>
 					<input
 						type='text'
 						placeholder='Emailingiz'
 						className='outline-none text-parahraph text-[13px] font-normal leading-[158.47%] py-3 px-8 borderIn'
 					/>
-					<Link href='https://t.me/ExcelLanceTeam'>
-						<button className='bg-accent text-[#fff] w-full h-full px-6 border text-center text-normal font-[500] leading-normal'>
+					<Link href='https://t.me/excellance'>
+						<button className='bg-accent text-[#fff] w-full h-full px-6 border text-center text-normal font-[500] leading-normal max-sm:rounded-tr-full max-sm:rounded-bl-full max-sm:py-2'>
 							{`Obuna bo'lish`}
 						</button>
 					</Link>

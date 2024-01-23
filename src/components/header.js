@@ -71,7 +71,7 @@ const Header = () => {
 					</li>
 					<li>
 						<Link
-							href='#wors'
+							href='#works'
 							className={styles.linkMobile}
 							onClick={() => setMenu(!menu)}
 						>
@@ -80,7 +80,7 @@ const Header = () => {
 					</li>
 					<li>
 						<Link
-							href='#services'
+							href='#service'
 							className={styles.linkMobile}
 							onClick={() => setMenu(!menu)}
 						>
@@ -98,7 +98,7 @@ const Header = () => {
 					</li>
 					<li>
 						<Link
-							href='#contacts'
+							href='https://t.me/shohruz_isroilov'
 							className={styles.linkMobile}
 							onClick={() => setMenu(!menu)}
 						>

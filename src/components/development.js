@@ -19,7 +19,7 @@ const Development = () => {
 							doim rivojlanishdan to'xtamaymiz.`}
 						</p>
 						<Link
-							href='https://t.me/ExcelLanceTeam'
+							href='https://t.me/excellance'
 							className='text-normal font-[500] leading-normal underline text-accent'
 						>
 							Kompaniya haqida batafsil

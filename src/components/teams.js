@@ -48,7 +48,7 @@ const Teams = () => {
 						})}
 				</div>
 				<Link
-					href='https://t.me/ExcelLanceTeam'
+					href='https://t.me/excellance'
 					className='flex justify-center mt-10'
 				>
 					<button

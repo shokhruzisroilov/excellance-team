@@ -25,6 +25,6 @@ export const worksData = [
 		title: 'ExellanceTeam websayti',
 		description:
 			'	Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem officia corporis soluta quos similique voluptatum eligendi ad obcaecati culpa, blanditiis accusamus eveniet perferendis totam ratione a velit eaque aliquid maxime.',
-		link: 'https://t.me/ExcelLanceTeam',
+		link: 'https://t.me/excellance',
 	},
 ]
