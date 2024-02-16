@@ -4,6 +4,18 @@ import Image from 'next/image'
 import Link from 'next/link'
 import { worksData } from '@/utils/worksData'
 
+import React, { useRef, useState } from 'react'
+// Import Swiper React components
+import { Swiper, SwiperSlide } from 'swiper/react'
+
+// Import Swiper styles
+import 'swiper/css'
+import 'swiper/css/pagination'
+import 'swiper/css/navigation'
+
+// import required modules
+import { Pagination, Navigation } from 'swiper/modules'
+
 const Works = () => {
 	return (
 		<>
@@ -26,40 +38,56 @@ const Works = () => {
 							</button>
 						</Link>
 					</div>
-					<div className='mt-[70px] grid lg:grid-cols-3 md:grid-cols-2 gap-x-6 gap-y-10 justify-center '>
-						{worksData &&
-							worksData.map(item => {
-								return (
-									<div
-										data-aos='zoom-in-down'
-										className='max-w-[350px]'
-										key={item.id}
-									>
-										<Image
-											src={item.image}
-											alt='work image'
-											width={350}
-											height={300}
-											priority={true}
-											className='w-[350px] h-[300px] object-cover rounded-[10px] object-top'
-										/>
-										<h4 className='mt-6 text-black text-[18px] font-[600] leading-normal'>
-											<span className='text-accent'>0{item.id}. </span>{' '}
-											{item.title}
-										</h4>
-										<p className='w-full my-6 text-parahraph text-normal font-[400] leading-[158.47%]'>
-											{' '}
-											{item.description}
-										</p>
-										<Link
-											href={item.link}
-											className='text-normal font-[500] leading-normal underline text-accent'
+					<div className='mt-[70px]'>
+						<Swiper
+							centeredSlides={true}
+							spaceBetween={30}
+							pagination={true}
+							navigation={true}
+							modules={[Pagination, Navigation]}
+							className='mySwiper'
+							breakpoints={{
+								768: {
+									slidesPerView: 1,
+								},
+								1024: {
+									slidesPerView: 3,
+								},
+							}}
+						>
+							{worksData &&
+								worksData.map(item => (
+									<SwiperSlide key={item.id}>
+										<div
+											data-aos='zoom-in-down'
+											className='max-w-[350px] bg-[#F6F6F8] rounded-[10px] cursor-pointer'
 										>
-											Batafsil
-										</Link>
-									</div>
-								)
-							})}
+											<Image
+												src={item.image}
+												alt='work image'
+												width={350}
+												height={300}
+												priority={true}
+												className='w-[350px] h-[300px] object-cover rounded-[10px] object-top'
+											/>
+											<h4 className='mt-6 pl-2 text-black text-[18px] font-[600] leading-normal'>
+												<span className='text-accent'>0{item.id}. </span>{' '}
+												{item.title}
+											</h4>
+											<p className='w-full my-6 pl-2 text-parahraph text-normal font-[400] leading-[158.47%]'>
+												{' '}
+												{item.description}
+											</p>
+											<Link
+												href={item.link}
+												className='text-normal pl-2 font-[500] leading-normal underline text-accent'
+											>
+												Batafsil
+											</Link>
+										</div>
+									</SwiperSlide>
+								))}
+						</Swiper>
 					</div>
 				</Container>
 			</div>
