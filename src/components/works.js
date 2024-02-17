@@ -4,17 +4,16 @@ import Image from 'next/image'
 import Link from 'next/link'
 import { worksData } from '@/utils/worksData'
 
-import React, { useRef, useState } from 'react'
+import React from 'react'
 // Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react'
 
 // Import Swiper styles
 import 'swiper/css'
-import 'swiper/css/pagination'
 import 'swiper/css/navigation'
 
 // import required modules
-import { Pagination, Navigation } from 'swiper/modules'
+import { Navigation } from 'swiper/modules'
 
 const Works = () => {
 	return (
@@ -40,14 +39,14 @@ const Works = () => {
 					</div>
 					<div className='mt-[70px]'>
 						<Swiper
-							centeredSlides={true}
-							spaceBetween={30}
-							pagination={true}
 							navigation={true}
-							modules={[Pagination, Navigation]}
+							modules={[Navigation]}
 							className='mySwiper'
 							breakpoints={{
 								768: {
+									slidesPerView: 2,
+								},
+								480: {
 									slidesPerView: 1,
 								},
 								1024: {
