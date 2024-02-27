@@ -1,6 +1,6 @@
-import myImage from '../assets/image/my-image.JPG'
-import samandarImage from '../assets/image/samandar-image.jpg'
-import elbekakaImage from '../assets/image/elbekaka-image.jpg'
+import myImage from '../assets/image/my-image.webp'
+import samandarImage from '../assets/image/samandar-image.webp'
+import elbekakaImage from '../assets/image/elbekaka-image.webp'
 
 export const teamsData = [
 	{

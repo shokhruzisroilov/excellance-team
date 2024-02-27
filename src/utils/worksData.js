@@ -1,8 +1,8 @@
-import onlineShop from '../assets/image/e-commerse-online-shop.jpg'
-import zummaPharma from '../assets/image/zumma-pharma.jpg'
-import exellanceTeam from '../assets/image/exellance-team.jpg'
-import kasbiSchool from '../assets/image/kasbi-school.jpg'
-import orginaluz from '../assets/image/orginaluz.jpg'
+import onlineShop from '../assets/image/e-commerse-online-shop.webp'
+import zummaPharma from '../assets/image/zumma-pharma.webp'
+import exellanceTeam from '../assets/image/exellance-team.webp'
+import kasbiSchool from '../assets/image/kasbi-school.webp'
+import orginaluz from '../assets/image/orginaluz.webp'
 
 export const worksData = [
 	{

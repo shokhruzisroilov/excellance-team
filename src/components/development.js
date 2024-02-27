@@ -1,7 +1,7 @@
 import Container from './container'
 import Image from 'next/image'
 import Link from 'next/link'
-import developmentImage from '../assets/image/development-image.png'
+import developmentImage from '../assets/image/development-image.webp'
 import { ourResult } from '@/utils/ourResult'
 
 const Development = () => {

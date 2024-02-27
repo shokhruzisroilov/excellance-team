@@ -48,7 +48,7 @@ a {
 	background: linear-gradient(90deg, #504dc2 20.44%, #5f12d0 80.91%), #c4c4c4;
 }
 .advertBg {
-	background-image: url(../assets/image/advert-image.jpg);
+	background-image: url(../assets/image/advert-image.webp);
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
