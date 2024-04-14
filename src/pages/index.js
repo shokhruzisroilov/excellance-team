@@ -8,6 +8,7 @@ import Teams from '@/components/teams'
 import Advert from '@/components/advert'
 import Subscribe from '@/components/subscribe'
 import Footer from '@/components/footer'
+import { useEffect, useState } from 'react'
 
 export default function Home() {
 	return (

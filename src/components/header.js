@@ -9,8 +9,9 @@ const Header = () => {
 	const [menu, setMenu] = useState(false)
 	return (
 		<>
+			{/* <div className={styles.headerScroll}> */}
 			<Container>
-				<div id='home' className={styles.header}>
+				<div className={styles.header}>
 					<div className={styles.logo}>
 						Excellance<span className={styles['logo-span']}>Team</span>
 					</div>
@@ -51,6 +52,7 @@ const Header = () => {
 					</nav>
 				</div>
 			</Container>
+			{/* </div> */}
 			<div className={styles.line}></div>
 			<div className={`${styles.navbar} ${menu && styles['navbar-active']}`}>
 				<div className={styles.nav}>

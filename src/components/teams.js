@@ -29,17 +29,17 @@ const Teams = () => {
 										data-aos='fade-up'
 										className='flex flex-col items-center justify-center text-center'
 									>
-										<span className='w-[255px] h-[255px]'>
+										<span className='w-[155px] h-[155px]'>
 											<Image
 												src={item.image}
 												alt={item.name}
 												className='rounded-full w-full h-full object-cover top-0'
 											/>
 										</span>
-										<h3 className='text-black mt-2 text-[28px] font-[600] leading-normal'>
+										<h3 className='text-black mt-2 text-[18px] font-[600] leading-normal'>
 											{item.name}
 										</h3>
-										<p className='text-parahraph text-[24px] font-normal leading-[158.47%]'>
+										<p className='text-parahraph text-[16px] font-normal leading-[158.47%]'>
 											{item.label}
 										</p>
 									</div>

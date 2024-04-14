@@ -37,56 +37,49 @@ const Works = () => {
 							</button>
 						</Link>
 					</div>
-					<div className='mt-[70px]'>
-						<Swiper
-							navigation={true}
-							modules={[Navigation]}
-							className='mySwiper'
-							breakpoints={{
-								768: {
-									slidesPerView: 2,
-								},
-								480: {
-									slidesPerView: 1,
-								},
-								1024: {
-									slidesPerView: 3,
-								},
-							}}
-						>
-							{worksData &&
-								worksData.map(item => (
-									<SwiperSlide key={item.id}>
-										<div
-											data-aos='zoom-in-down'
-											className='max-w-[350px] bg-[#F6F6F8] rounded-[10px] cursor-pointer'
-										>
-											<Image
-												src={item.image}
-												alt='work image'
-												width={350}
-												height={300}
-												priority={true}
-												className='w-[350px] h-[300px] object-cover rounded-[10px] object-top'
-											/>
-											<h4 className='mt-6 pl-2 text-black text-[18px] font-[600] leading-normal'>
-												<span className='text-accent'>0{item.id}. </span>{' '}
+					<div className='mt-[70px] gap-4 grid grid-cols-3 max-lg:grid-cols-2 max-sm:grid-cols-1'>
+						{worksData &&
+							worksData.map(item => {
+								return (
+									<div className='max-w-sm bg-[#fff] border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700'>
+										<Image
+											className='rounded-t-lg h-[300px]'
+											src={item.image}
+											alt='images'
+										/>
+										<div className='p-5'>
+											<h5 className='mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white'>
+												<span className='text-accent'>0{item.id}. </span>
 												{item.title}
-											</h4>
-											<p className='w-full my-6 pl-2 text-parahraph text-normal font-[400] leading-[158.47%]'>
-												{' '}
+											</h5>
+											<p className='mb-3 font-normal text-gray-700 dark:text-gray-400'>
 												{item.description}
 											</p>
-											<Link
-												href={item.link}
-												className='text-normal pl-2 font-[500] leading-normal underline text-accent'
+											<a
+												href={`${item.link}`}
+												className='inline-flex items-center px-3 py-2 text-sm font-medium text-center text-[#fff] bg-accent rounded-lg  focus:ring-4 focus:outline-none '
 											>
-												Batafsil
-											</Link>
+												Read more
+												<svg
+													className='rtl:rotate-180 w-3.5 h-3.5 ms-2'
+													aria-hidden='true'
+													xmlns='http://www.w3.org/2000/svg'
+													fill='none'
+													viewBox='0 0 14 10'
+												>
+													<path
+														stroke='currentColor'
+														strokeLinecap='round'
+														strokeLinejoin='round'
+														strokeWidth={2}
+														d='M1 5h12m0 0L9 1m4 4L9 9'
+													/>
+												</svg>
+											</a>
 										</div>
-									</SwiperSlide>
-								))}
-						</Swiper>
+									</div>
+								)
+							})}
 					</div>
 				</Container>
 			</div>

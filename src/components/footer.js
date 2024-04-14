@@ -80,49 +80,6 @@ const Footer = () => {
 					<ul className='flex flex-col gap-6'>
 						<li className='flex items-center gap-[15px]'>
 							<h4 className='text-[#000] text-[18px] font-[600] leading-normal'>
-								Bizning loyhalar
-							</h4>
-						</li>
-						<li className='flex items-center gap-[10px]'>
-							<MdKeyboardArrowRight className='text-[15px] text-parahraph cursor-pointer' />
-							<Link
-								href='#works'
-								className='text-parahraph text-[14px] font-normal leading-[158.47%] cursor-pointer'
-							>
-								Loyhalarimiz
-							</Link>
-						</li>
-						<li className='flex items-center gap-[10px]'>
-							<MdKeyboardArrowRight className='text-[15px] text-parahraph cursor-pointer' />
-							<Link
-								href='#works'
-								className='text-parahraph text-[14px] font-normal leading-[158.47%] cursor-pointer'
-							>
-								Loyhalarimiz
-							</Link>
-						</li>
-						<li className='flex items-center gap-[10px]'>
-							<MdKeyboardArrowRight className='text-[15px] text-parahraph cursor-pointer' />
-							<Link
-								href='#works'
-								className='text-parahraph text-[14px] font-normal leading-[158.47%] cursor-pointer'
-							>
-								Loyhalarimiz
-							</Link>
-						</li>
-						<li className='flex items-center gap-[10px]'>
-							<MdKeyboardArrowRight className='text-[15px] text-parahraph cursor-pointer' />
-							<Link
-								href='#works'
-								className='text-parahraph text-[14px] font-normal leading-[158.47%] cursor-pointer'
-							>
-								Loyhalarimiz
-							</Link>
-						</li>
-					</ul>
-					<ul className='flex flex-col gap-6'>
-						<li className='flex items-center gap-[15px]'>
-							<h4 className='text-[#000] text-[18px] font-[600] leading-normal'>
 								Ijtimoiy tarmoqlar
 							</h4>
 						</li>

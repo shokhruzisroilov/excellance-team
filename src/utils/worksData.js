@@ -2,13 +2,12 @@ import onlineShop from '../assets/image/e-commerse-online-shop.webp'
 import zummaPharma from '../assets/image/zumma-pharma.webp'
 import exellanceTeam from '../assets/image/exellance-team.webp'
 import kasbiSchool from '../assets/image/kasbi-school.webp'
-import orginaluz from '../assets/image/orginaluz.webp'
 
 export const worksData = [
 	{
 		id: 1,
 		image: onlineShop,
-		title: 'OrginalUz E-commerse website',
+		title: 'Dreams Shop',
 		description:
 			'	Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem officia corporis soluta quos similique voluptatum eligendi ad obcaecati culpa, blanditiis accusamus eveniet perferendis totam ratione a velit eaque aliquid maxime.',
 		link: 'https://orginal-uz-e-commerse.vercel.app/',
@@ -28,15 +27,6 @@ export const worksData = [
 		description:
 			'	Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem officia corporis soluta quos similique voluptatum eligendi ad obcaecati culpa, blanditiis accusamus eveniet perferendis totam ratione a velit eaque aliquid maxime.',
 		link: 'https://t.me/excellance',
-	},
-
-	{
-		id: 4,
-		image: orginaluz,
-		title: 'OrginalUz E-commers site',
-		description:
-			'	Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem officia corporis soluta quos similique voluptatum eligendi ad obcaecati culpa, blanditiis accusamus eveniet perferendis totam ratione a velit eaque aliquid maxime.',
-		link: 'https://orginal-uz-e-commerse.vercel.app/',
 	},
 	{
 		id: 5,

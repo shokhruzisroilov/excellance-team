@@ -18,11 +18,14 @@ const Advert = () => {
 						Qilgan ishlayotganimizni tomosha qiling
 					</p>
 					<iframe
-						data-aos='fade-up'
-						src='https://www.youtube.com/embed/lvSXqKvp364'
-						title='What Is Website ? | How Website Works ? | What Is Website URL ?'
+						width='866'
+						height='487'
+						src='https://www.youtube.com/embed/IIf2PSgv1jg'
+						title='Web dasturchilar kim ?'
+						frameborder='0'
 						allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share'
-						className='mt-[70px] video lg:w-[970px] w-full md:h-[430px] h-[230px]'
+						referrerpolicy='strict-origin-when-cross-origin'
+						allowfullscreen
 					></iframe>
 				</div>
 			</Container>

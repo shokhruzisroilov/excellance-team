@@ -11,7 +11,7 @@ const Hero = () => {
 	}, [])
 	return (
 		<Container>
-			<div data-aos='fade-up' className={`${styles.hero} `}>
+			<div id='home' data-aos='fade-up' className={`${styles.hero} `}>
 				<p className={`${styles.position}`}>Excellance IT Team</p>
 				<h1 className={`${styles.title} md:text-[48px] text-[40px]`}>
 					Biz murakkab vazifalar va muammolarga oson yechimlarni yaratamiz
