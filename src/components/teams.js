@@ -20,7 +20,7 @@ const Teams = () => {
 				>
 					Bizning jamoa bilan tanishib chiqishingiz mumkin
 				</p>
-				<div className='mt-[70px] flex gap-10 justify-center flex-wrap'>
+				<div className='mt-[70px] grid grid-cols-4 max-md:grid-cols-2 max-sx:grid-cols-1 gap-4'>
 					{teamsData &&
 						teamsData.map(item => {
 							return (

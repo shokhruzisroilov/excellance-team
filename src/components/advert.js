@@ -11,15 +11,14 @@ const Advert = () => {
 					>
 						Bizning ishimiz haqida video
 					</h3>
-					<p
+					{/* <p
 						data-aos='fade-up'
 						className='text-[#fff] mt-6 text-center text-[16px] font-normal leading-[158.47%]'
 					>
 						Qilgan ishlayotganimizni tomosha qiling
-					</p>
+					</p> */}
 					<iframe
-						width='866'
-						height='487'
+						className='w-full min-h-[500px] max-sm:min-h-[300px] mt-10'
 						src='https://www.youtube.com/embed/IIf2PSgv1jg'
 						title='Web dasturchilar kim ?'
 						frameborder='0'
