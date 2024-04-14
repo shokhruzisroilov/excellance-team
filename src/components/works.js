@@ -59,7 +59,7 @@ const Works = () => {
 												href={`${item.link}`}
 												className='inline-flex items-center px-3 py-2 text-sm font-medium text-center text-[#fff] bg-accent rounded-lg  focus:ring-4 focus:outline-none '
 											>
-												Read more
+												Ko'proq
 												<svg
 													className='rtl:rotate-180 w-3.5 h-3.5 ms-2'
 													aria-hidden='true'

@@ -1,23 +1,25 @@
 import webSiteIcon from '../assets/icons/web-site-icon.svg'
+import landingPage from '../assets/icons/landing-page.png'
+import onlieShop from '../assets/icons/online-shop.svg'
 
 export const servicesData = [
 	{
 		id: 1,
-		image: webSiteIcon,
+		image: landingPage,
 		title: 'Landing page',
 		paragraph:
 			'Bisnesingizni rivojlantirish uchun sizga Landing page websayt qilib bera olamiz.',
 	},
 	{
 		id: 2,
-		image: webSiteIcon,
+		image: onlieShop,
 		title: 'Savdo websayti',
 		paragraph: "Online do'konlar uchun websaytlar qilib bera olamiz.",
 	},
 	{
 		id: 3,
 		image: webSiteIcon,
-		title: 'Veb-sayt yaratish',
+		title: 'Har qanday vebsayt ',
 		paragraph:
 			'Biz siz uchun har qanday turdagi vebsaytlarni yaratib bera olamiz',
 	},
