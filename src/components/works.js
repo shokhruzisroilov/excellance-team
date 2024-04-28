@@ -41,23 +41,23 @@ const Works = () => {
 						{worksData &&
 							worksData.map(item => {
 								return (
-									<div className='max-w-sm bg-[#fff] border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700'>
+									<div className='max-w-sm bg-[#fff] border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 relative'>
 										<Image
-											className='rounded-t-lg h-[300px]'
+											className='h-[300px]'
 											src={item.image}
 											alt='images'
 										/>
-										<div className='p-5'>
-											<h5 className='mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white'>
+										<div className='p-5 mb-10'>
+											<h5 className='mb-2 text-xl font-semibold tracking-tight text-gray-900 dark:text-white'>
 												<span className='text-accent'>0{item.id}. </span>
 												{item.title}
 											</h5>
-											<p className='mb-3 font-normal text-gray-700 dark:text-gray-400'>
+											{/* <p className='mb-3 font-normal text-gray-700 dark:text-gray-400'>
 												{item.description}
-											</p>
+											</p> */}
 											<a
 												href={`${item.link}`}
-												className='inline-flex items-center px-3 py-2 text-sm font-medium text-center text-[#fff] bg-accent rounded-lg  focus:ring-4 focus:outline-none '
+												className='inline-flex items-center px-2 py-1 text-sm font-medium text-center text-[#fff] bg-accent rounded-lg  focus:ring-4 focus:outline-none absolute bottom-5 left-5'
 											>
 												Ko'proq
 												<svg

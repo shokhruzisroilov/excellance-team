@@ -86,7 +86,7 @@ const Footer = () => {
 						<li className='flex items-center gap-[10px]'>
 							<MdKeyboardArrowRight className='text-[15px] text-parahraph cursor-pointer' />
 							<Link
-								href='https://t.me/excellance'
+								href='https://t.me/excellance_team'
 								className='text-parahraph text-[14px] font-normal leading-[158.47%] cursor-pointer'
 							>
 								Telegram kanal
@@ -95,7 +95,7 @@ const Footer = () => {
 						<li className='flex items-center gap-[10px]'>
 							<MdKeyboardArrowRight className='text-[15px] text-parahraph cursor-pointer' />
 							<Link
-								href='https://t.me/excellance_group'
+								href='https://t.me/excellance_team_group'
 								className='text-parahraph text-[14px] font-normal leading-[158.47%] cursor-pointer'
 							>
 								Telegram guruh
@@ -113,7 +113,7 @@ const Footer = () => {
 						<li className='flex items-center gap-[10px]'>
 							<MdKeyboardArrowRight className='text-[15px] text-parahraph cursor-pointer' />
 							<Link
-								href='https://t.me/lazy_smart_programmer'
+								href='https://t.me/cleverdeveloper'
 								className='text-parahraph text-[14px] font-normal leading-[158.47%] cursor-pointer'
 							>
 								Admin
